@@ -44,7 +44,7 @@ Sobre o Gephi, ver: "Gephi: Guia Básico de Interface" - Disponível em: http://
 # Observações pertinentes:
 
 Entre os dados que não importamos estão as citações que não começam com um nome de autor, mas de uma revista, jornal, título de artigo, relatório ou lei. Como por exemplo: RELATÓRIO de Direitos Humanos. 2013. Disponível em http://www.sdh.gov.br/assuntos/lgbt/dados-estatisticos/Relatorio2013.pdf acessado em 02 de março de 2017. 
-Os autores citados, independente de auntas vezes aparecerem, farão parte da tabela. 
+Os autores citados, independente de quantas vezes aparecerem, farão parte da tabela. 
 
 
 # Problemas e inconsistências dessa versão:
