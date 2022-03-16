@@ -45,10 +45,24 @@ Os autores citados farão parte da tabela e, se citados mais de uma vez nas refe
 
 # Problemas e inconsistências dessa versão:
 
-Alguns arquivos .pdf possuem níveis de proteção e não permitem a extração, assim que, caso o script não execute, sugiro converter seu .pdf para .txt. Observe se as referências estão em formato ABNT, ou seja, no formato SOBRENOME, Nome. E de que haja um título que identifique as Referências Bibliográficas, que podem ser reconhecidas como Bibliografia, REFERENCIAS, e suas variações já expostas anteriormente. Caso contrário será necessário editar seu .txt para uso, inserindo o título adequado. 
+Alguns arquivos .pdf possuem níveis de proteção e não permitem a extração, assim que, caso o script não execute, sugiro converter seu .pdf para .txt. 
+
+Observe se as referências estão em formato ABNT, ou seja, no formato SOBRENOME, Nome. E de que haja um título que identifique as Referências Bibliográficas, que podem ser reconhecidas como Bibliografia, REFERENCIAS, e suas variações já expostas anteriormente. Caso contrário será necessário editar seu .txt para uso, inserindo o título adequado. 
 
 Dentre as possibilidades que as normas da ABNT permitiam (na última versão isso foi alterado), era o uso de underline (___) para indicar que é o mesmo autor da linha acima. Por esse motivo inserimos essa regra no script, todavia, em alguns casos, que ainda não identificamos o porquê, os dados não são extraídos corretamente. 
+
 Algumas abreviações de nomes de universidades em maiúscula como PUC, UPF, por exemplo, podem ser importados às vezes como se fossem nomes de autorias. Estamos trabalhando em criar dicionários de palavras que devem ser excluídas.
+
+Caso as referencias bibliográficas contenham número ou marcadores como - ou >, o nome do autor não será extraído. Indicado editar o .txt nesse caso.
+
+Em casos de sobrenomes que tem maiúsculas e minúsculas juntas, como MacRAE e casos em que o sobrenome possua hífen ao meio também podem gerar problemas de extração. Possível editar também.
+
+Sobrenomes com trema também estão tendo problemas de mineração.
+
+Na tabela final em formato .csv é importante retirar os pontos finais e os ponto e vírgulas para não gerar problemas na importação para o Gephi.
+
+
+
 
 
 
